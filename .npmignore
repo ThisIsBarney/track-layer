@@ -2,3 +2,4 @@
 .eslintrc
 .eslintignore
 .babelrc
+.flowconfig
