@@ -1,6 +1,6 @@
 {
   "name": "@thisisbarney/track-layer",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "a dynamic track layer, displaying tracks",
   "main": "lib/index.js",
   "files": [
@@ -13,7 +13,9 @@
   "scripts": {
     "prepublish": "node_modules/.bin/babel src --out-dir lib",
     "go": "yarn publish --access=public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "track",
@@ -45,6 +47,12 @@
     "flow-bin": "^0.73.0",
     "json-loader": "^0.5.7",
     "mocha": "^4.0.1",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "travis-deploy-once": "^5.0.0",
+    "semantic-release": "^15.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThisIsBarney/track-layer.git"
   }
 }
