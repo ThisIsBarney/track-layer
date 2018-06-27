@@ -7,6 +7,7 @@
     "lib/index.js",
     "lib/track-layer.js",
     "lib/track-layer.vert.js",
+    "lib/track-layer-64.vert.js",
     "lib/track-layer.frag.js"
   ],
   "scripts": {
